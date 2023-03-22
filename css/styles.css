@@ -447,6 +447,69 @@ body {
 }
 .footer-icon {
 }
+/* <!-- Footer-subscribe --> */
+
+.footer-form {
+	margin-left: 80px;
+}
+.footer-subscribe {
+}
+.footer-subscribe-heading {
+	display: block;
+	justify-content: center;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--hero-color);
+	margin-bottom: 16px;
+}
+.footer-subscribe-wrap {
+	display: flex;
+}
+.footer-subscribe-input {
+	padding: 8px 16px;
+	color: var(--hero-color);
+	border: 1px solid var(--hero-color);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background-color: var(--background-color-1);
+}
+.footer-subscribe-input::placeholder {
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.04em;
+	color: var(--hero-color);
+}
+.footer-subscribe-btn {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 8px 24px;
+	gap: 16px;
+	min-width: 165px;
+	color: var(--hero-color);
+	background: var(--accent-color);
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	transition: background var(--animation-duration) var(--timing-function);
+}
+.footer-subscribe-btn:is(:hover, :focus) {
+	background: var(--hover-focus-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.footer-subscribe-input {
+	margin-right: 24px;
+}
+.footer-subscribe-icon {
+	display: flex;
+	fill: var(--hero-color);
+}
+.footer-subscribe-icon-2 {
+}
+/* <!-- /Footer-subscribe --> */
 
 /* <!--Hero and portfolio section-->*/
 .control {
@@ -534,6 +597,7 @@ body {
 }
 /* <!--/Hero and portfolio section--> */
 
+/* <!-- Data-modal --> */
 .backdrop {
 	position: fixed;
 	top: 0;
@@ -687,6 +751,8 @@ body {
 	line-height: 1.33;
 	text-decoration-line: underline;
 	color: var(--accent-color);
+	transition-duration: var(--animation-duration);
+	transition-timing-function: var(--timing-function);
 }
 .form-btn {
 	display: block;
@@ -700,4 +766,12 @@ body {
 	border-radius: 4px;
 	border: none;
 	cursor: pointer;
+	transition-duration: var(--animation-duration);
+	transition-timing-function: var(--timing-function);
 }
+
+.form-btn:is(:hover, :focus) {
+	background-color: var(--hover-focus-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+/* <!-- /Data-modal --> */

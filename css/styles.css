@@ -449,7 +449,7 @@ body {
 }
 /* <!-- Footer-subscribe --> */
 
-.footer-form {
+.footer-subscribe-form {
 	margin-left: 80px;
 }
 .footer-subscribe {
@@ -680,21 +680,19 @@ body {
 .form-input:focus + .form-icon {
 	fill: var(--accent-color);
 }
-
+.form-label {
+	position: relative;
+}
 .form-label span {
 	display: block;
 	margin-bottom: 4px;
 	color: var(--icon-color);
 }
 
-.form-control {
-	position: relative;
-}
 .form-icon {
 	position: absolute;
 	left: 16px;
-	top: 50%;
-	transform: translateY(-50%);
+	top: 60%;
 }
 .form-texterea {
 	display: block;

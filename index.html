@@ -347,17 +347,24 @@
 					<div class="footer-subscribe">
 						<p class="footer-subscribe-heading">Subscribe</p>
 						<div class="footer-subscribe-wrap">
-							<input type="email" class="footer-subscribe-input" name="email" placeholder="E-mail" required />
-							<label>
+							<input
+								type="email"
+								autocomplete="off"
+								aria-label="E-mail"
+								class="footer-subscribe-input"
+								name="email"
+								placeholder="E-mail"
+								required
+							/>
+							<span class="footer-subscribe-icon">
 								<button class="footer-subscribe-btn btn" type="submit"
 									>Subscribe
-									<span class="footer-subscribe-icon">
-										<svg class="footer-subscribe-icon-2" width="24" height="24">
-											<use href="./images/form-input-icon.svg#icon-telegram"></use>
-										</svg>
-									</span>
+
+									<svg class="footer-subscribe-icon-2" width="24" height="24">
+										<use href="./images/form-input-icon.svg#icon-telegram"></use>
+									</svg>
 								</button>
-							</label>
+							</span>
 						</div>
 					</div>
 				</form>
@@ -373,7 +380,7 @@
 						<use href="./images/close.svg#icon-close"></use>
 					</svg>
 				</button>
-				<h3 class="modal-title">Leave your contacts and we will call you back</h3>
+				<p class="modal-title">Leave your contacts and we will call you back</p>
 				<form class="modal-form form">
 					<div class="form-group">
 						<label class="form-label">
@@ -408,14 +415,14 @@
 						</label>
 					</div>
 
-					<div class="form-group">
+					<div class="form-group-2">
 						<label class="form-label">
 							<span>Comment</span>
 							<textarea class="form-texterea" name="Comment" id="Comment" placeholder="Text input"></textarea>
 						</label>
 					</div>
 
-					<div class="form-group">
+					<div class="form-group-3">
 						<input type="checkbox" class="form-checkbox visually-hidden" id="policy" name="policy" />
 
 						<label for="policy" class="form-checkbox-label">

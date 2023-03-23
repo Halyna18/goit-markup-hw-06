@@ -469,6 +469,8 @@ body {
 }
 .footer-subscribe-input {
 	padding: 8px 16px;
+	width: 264px;
+	height: 40;
 	color: var(--hero-color);
 	border: 1px solid var(--hero-color);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -635,6 +637,7 @@ body {
 	background: var(--footer-text);
 	border-radius: 50%;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 .modal-close-btn:is(:hover, :focus) {
 	color: var(--hero-color);
@@ -665,6 +668,12 @@ body {
 .form-group {
 	margin-bottom: 8px;
 }
+.form-group-2 {
+	margin-bottom: 16px;
+}
+.form-group-3 {
+	margin-bottom: 24px;
+}
 .form-input {
 	width: 100%;
 	height: 40px;
@@ -685,6 +694,9 @@ body {
 }
 .form-label span {
 	display: block;
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.04em;
 	margin-bottom: 4px;
 	color: var(--icon-color);
 }
@@ -717,8 +729,6 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: var(--icon-color);
-	margin-top: 16px;
-	margin-bottom: 24px;
 }
 
 .form-checkbox:checked + .form-checkbox-label::before {
